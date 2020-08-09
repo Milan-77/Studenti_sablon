@@ -1,0 +1,62 @@
+<!DOCTYPE html>    
+<html lang="en">   
+<head>
+    <meta charset="uft-8"> 
+</head>
+
+      <body> 
+        <script>                 
+           function Student1 (name, address, phone, course) { 
+                    this.name = "John Benson"; 
+                    this.address = "High Park 36";
+                    this.phone = "(507) 833-3567"; 
+                    this.course = "Geography";
+                }  
+                 
+                 getInfo = function() { 
+                     return "John Benson: " + this.name + "\n" + "High Park 36: " + this.address + "\n" + "(507) 833-3567: " + this.phone + "\n" + "Geography: " + this.course
+                 }
+                 
+                var student1 = new Student1("John Benson", "High Park 36", "(507) 833-3567" , "Geography");
+
+                console.log(student1,name);
+
+                                                 
+
+
+            function Student2 (name, address, phone, course) {             
+                    this.name = "Kailan Smart"; 
+                    this.address = "795 Harvard Street";
+                    this.phone = "(925) 856-5167"; 
+                    this.course = "Biology";
+                }  
+
+               getInfo = function() { 
+                     return "Kailan Smart: " + this.name + "\n" + "795 Harvard Street: " + this.address + "\n" + "(925) 856-5167: " + this.phone + "\n" + "Biology: " + this.course
+                 }
+
+                var student1 = new Student2("Kailan Smart", "795 Harvard Street", "(925) 856-5167" , "Biology");
+             
+                console.log(student1,name);
+                 
+
+
+            function Student3  (name, address, phone, course) {  
+                    this.name = "Isabelle Prentice"; 
+                    this.address = "700 Rock Maple St.";
+                    this.phone = "(899) 875-8627"; 
+                    this.course = "Math";
+                }  
+                 
+                getInfo = function() { 
+                     return "Isabelle Prentice: " + this.name + "\n" + "700 Rock Maple St.: " + this.address + "\n" + "(899) 875-8627: " + this.phone + "\n" + "Math: " + this.course
+                 }
+
+                var student1 = new Student3("Michael Ross", "High park 20", "(507) 333-3599" , "Actor");
+             
+                console.log(student1,name);
+        
+        
+        </script>
+     </body>
+</html>
